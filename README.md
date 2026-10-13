@@ -1,5 +1,7 @@
 # nlp-patents
 
+![nlp-patents architecture](docs/architecture.png)
+
 Text-matching and recommendation work co-invented by Shawn C. Becker with Rolly Rouse. It covers token-weighted content matching at ClipFile and attribute-weighted similarity search at HomePortfolio.
 
 ## Patent publications

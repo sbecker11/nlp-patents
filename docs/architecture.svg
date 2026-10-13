@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<style>
+text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.title { font-size: 40px; font-weight: 700; fill: #f8fafc; }
+.subtitle { font-size: 22px; fill: #94a3b8; }
+.name { font-size: 25px; font-weight: 700; fill: #f8fafc; text-anchor: middle; }
+.sub { font-size: 18px; fill: #cbd5e1; text-anchor: middle; }
+.edge { font-size: 16px; fill: #e2e8f0; text-anchor: middle; }
+.note { font-size: 18px; fill: #94a3b8; }
+</style>
+</defs>
+<rect width="1600" height="1000" fill="#0f172a"/>
+<text x="60" y="78" class="title">nlp-patents</text>
+<text x="60" y="114" class="subtitle">ClipFile token-weighted content matching and collaborative filtering on AWS DynamoDB</text>
+<rect x="60" y="200" width="340" height="110" rx="14" fill="#334155" stroke="#cbd5e1" stroke-width="2.5"/>
+<text x="230" y="249" class="name">Submitted text</text>
+<text x="230" y="279" class="sub">quotes · notes · web pages · blogs</text>
+<rect x="480" y="200" width="340" height="110" rx="14" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2.5"/>
+<text x="650" y="249" class="name">ClipFile web app</text>
+<text x="650" y="279" class="sub">Java · Spring Boot · jQuery</text>
+<rect x="900" y="200" width="340" height="110" rx="14" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2.5"/>
+<text x="1070" y="234" class="name">NLP preprocessing</text>
+<text x="1070" y="264" class="sub">tokenize · stem · tense · plurals</text>
+<text x="1070" y="290" class="sub">stop words · contractions · synonyms</text>
+<rect x="900" y="480" width="340" height="110" rx="14" fill="#3b2f5c" stroke="#c4b5fd" stroke-width="2.5"/>
+<text x="1070" y="529" class="name">Token bags</text>
+<text x="1070" y="559" class="sub">weight = incidence fraction</text>
+<rect x="480" y="480" width="340" height="110" rx="14" fill="#3b2f5c" stroke="#c4b5fd" stroke-width="2.5"/>
+<text x="650" y="529" class="name">User profiles</text>
+<text x="650" y="559" class="sub">aggregated item token bags</text>
+<rect x="60" y="480" width="340" height="110" rx="14" fill="#4a3f14" stroke="#fde047" stroke-width="2.5"/>
+<text x="230" y="529" class="name">Similarity scoring</text>
+<text x="230" y="559" class="sub">Σ shared weights / Σ all weights</text>
+<rect x="60" y="760" width="340" height="110" rx="14" fill="#1f3d2f" stroke="#86efac" stroke-width="2.5"/>
+<text x="230" y="809" class="name">Collaborative filtering</text>
+<text x="230" y="839" class="sub">rank items and users by score</text>
+<rect x="480" y="760" width="340" height="110" rx="14" fill="#334155" stroke="#cbd5e1" stroke-width="2.5"/>
+<text x="650" y="809" class="name">Recommendations</text>
+<text x="650" y="839" class="sub">similar content · similar users</text>
+<rect x="1310" y="200" width="230" height="390" rx="14" fill="#4a3420" stroke="#fdba74" stroke-width="2.5"/>
+<text x="1425" y="374" class="name">AWS DynamoDB</text>
+<text x="1425" y="404" class="sub">items · token bags</text>
+<text x="1425" y="430" class="sub">user profiles</text>
+<polyline points="400,255 480,255" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="412.8" y="240" width="54.4" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="440" y="261" class="edge">text</text>
+<polyline points="820,255 900,255" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="832.8" y="240" width="54.4" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="860" y="261" class="edge">item</text>
+<polyline points="1070,310 1070,480" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="1033.2" y="380" width="73.6" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="1070" y="401" class="edge">tokens</text>
+<polyline points="900,535 820,535" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="808.8" y="520" width="102.4" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="860" y="541" class="edge">aggregate</text>
+<polyline points="480,535 400,535" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="393.6" y="520" width="92.8" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="440" y="541" class="edge">profiles</text>
+<polyline points="230,590 230,760" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="193.2" y="660" width="73.6" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="230" y="681" class="edge">scores</text>
+<polyline points="400,815 480,815" fill="none" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="398.4" y="800" width="83.2" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="440" y="821" class="edge">matches</text>
+<polyline points="1240,255 1310,255" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+<polyline points="1240,535 1310,535" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+<polyline points="1425,590 1425,900 230,900 230,870" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+<rect x="646.2" y="885" width="361.6" height="28" rx="6" fill="#0f172a" opacity="0.92"/>
+<text x="827" y="906" class="edge">serial batch reads (not interactive)</text>
+<text x="60" y="950" class="note">Co-invented with Rolly Rouse: Using Content (US 2013/0325870 A1) · Tagging and Ranking Content (US 2019/0362384 A1) — ClipFile Corporation</text>
+<text x="60" y="978" class="note">Attribute tagging and matching system and method for database management (US 2001/0042060 A1) — HomePortfolio Inc.</text>
+</svg>
