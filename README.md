@@ -6,11 +6,11 @@ Text-matching and recommendation work co-invented by Shawn C. Becker with Rolly 
 
 ## Patent publications
 
-| Title | Publication | Assignee | Google Patents |
-|---|---|---|---|
-| Using Content | US 2013/0325870 A1 (continuation: US 2022/0075812 A1) | ClipFile Corporation | [US20130325870A1](https://patents.google.com/patent/US20130325870A1/en) |
-| Tagging and Ranking Content | US 2019/0362384 A1 (related: US 2014/0278986 A1) | ClipFile Corporation | [US20190362384A1](https://patents.google.com/patent/US20190362384A1/en) |
-| Attribute tagging and matching system and method for database management | US 2001/0042060 A1 | HomePortfolio Inc. | [US20010042060A1](https://patents.google.com/patent/US20010042060A1/en) |
+| Title | Publication | Assignee | Google Patents | PDF |
+|---|---|---|---|---|
+| Using Content | US 2013/0325870 A1 (continuation: US 2022/0075812 A1) | ClipFile Corporation | [US20130325870A1](https://patents.google.com/patent/US20130325870A1/en) | [US20130325870A1.pdf](patents/US20130325870A1.pdf) |
+| Tagging and Ranking Content | US 2019/0362384 A1 (related: US 2014/0278986 A1) | ClipFile Corporation | [US20190362384A1](https://patents.google.com/patent/US20190362384A1/en) | [US20190362384A1.pdf](patents/US20190362384A1.pdf) |
+| Attribute tagging and matching system and method for database management | US 2001/0042060 A1 | HomePortfolio Inc. | [US20010042060A1](https://patents.google.com/patent/US20010042060A1/en) | [US20010042060A1.pdf](patents/US20010042060A1.pdf) |
 
 ### Using Content
 
