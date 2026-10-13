@@ -1,16 +1,22 @@
 # nlp-patents
 
+<!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
+Pre-modern NLP for content matching at ClipFile: tokenization, stemming, and token-weighted similarity for collaborative filtering on DynamoDB. Ties to three co-invented vector-embedding recommendation patents.
+
+**Skills:** Natural Language Processing (NLP) · Tokenization and Stemming · Collaborative Filtering · Recommendation Systems · Information Retrieval · Java · Spring Boot · jQuery · AWS DynamoDB · Algorithms · Machine Learning · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
+<!-- SUMMARY:END -->
+
 ![nlp-patents architecture](docs/architecture.png)
 
 Text-matching and recommendation work co-invented by Shawn C. Becker with Rolly Rouse. It covers token-weighted content matching at ClipFile and attribute-weighted similarity search at HomePortfolio.
 
 ## Patent publications
 
-| Title | Publication | Assignee | Google Patents | PDF |
-|---|---|---|---|---|
-| Using Content | US 2013/0325870 A1 (continuation: US 2022/0075812 A1) | ClipFile Corporation | [US20130325870A1](https://patents.google.com/patent/US20130325870A1/en) | [US20130325870A1.pdf](patents/US20130325870A1.pdf) |
-| Tagging and Ranking Content | US 2019/0362384 A1 (related: US 2014/0278986 A1) | ClipFile Corporation | [US20190362384A1](https://patents.google.com/patent/US20190362384A1/en) | [US20190362384A1.pdf](patents/US20190362384A1.pdf) |
-| Attribute tagging and matching system and method for database management | US 2001/0042060 A1 | HomePortfolio Inc. | [US20010042060A1](https://patents.google.com/patent/US20010042060A1/en) | [US20010042060A1.pdf](patents/US20010042060A1.pdf) |
+| Title | Publication | Assignee | Google Patents |
+|---|---|---|---|
+| Using Content | US 2013/0325870 A1 (continuation: US 2022/0075812 A1) | ClipFile Corporation | [US20130325870A1](https://patents.google.com/patent/US20130325870A1/en) |
+| Tagging and Ranking Content | US 2019/0362384 A1 (related: US 2014/0278986 A1) | ClipFile Corporation | [US20190362384A1](https://patents.google.com/patent/US20190362384A1/en) |
+| Attribute tagging and matching system and method for database management | US 2001/0042060 A1 | HomePortfolio Inc. | [US20010042060A1](https://patents.google.com/patent/US20010042060A1/en) |
 
 ### Using Content
 
