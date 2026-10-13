@@ -1,12 +1,12 @@
 # nlp-patents
 
+![nlp-patents architecture](docs/architecture.png)
+
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
 Pre-modern NLP for content matching at ClipFile: tokenization, stemming, and token-weighted similarity for collaborative filtering on DynamoDB. Ties to three co-invented vector-embedding recommendation patents.
 
 **Skills:** Natural Language Processing (NLP) · Tokenization and Stemming · Collaborative Filtering · Recommendation Systems · Information Retrieval · Java · Spring Boot · jQuery · AWS DynamoDB · Algorithms · Machine Learning · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
 <!-- SUMMARY:END -->
-
-![nlp-patents architecture](docs/architecture.png)
 
 Text-matching and recommendation work co-invented by Shawn C. Becker with Rolly Rouse. It covers token-weighted content matching at ClipFile and attribute-weighted similarity search at HomePortfolio.
 
